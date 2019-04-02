@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> 
+  <title>
+    Snake game
+  </title>
+        
+  <style>
+  body {width: 80%; height: 80%; background: black; color: white;}
+  canvas {box-shadow: 1px 1px 10px 10px darkgreen;}
+  #board {width: 90%; float: left;}
+  #gameDiv {width: 100%; ;text-align: center;}
+  button {margin-top: 50px; padding: 1em; background: darkgreen; color: lightgreen; border: none; }
+  </style>
+        
+</head>
+   
+<body>
+<div id="board"><div id="gameDiv"><h2>Snake</h2>
+<canvas id="snakeCanvas" width="800" height="600"></canvas></div>
+<center><button onclick="hoved();">Start Snake spillet her</button><p>Poeng:</p><p id="poeng">0</p></center>
+</div>
+        
+<script src="snake.js"></script>
+</body>
+</html>
